@@ -53,17 +53,12 @@ header nav {
     color: rgb(101, 33, 165);
 }
 
-/** Index**/
-
-.imagen_principal_index {
+.imagen_principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 80vh;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/hero.jpg);
     background-image: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -77,6 +72,14 @@ header nav {
 .bajada_hero {
     color: #fff;
     font-weight: lighter;
+}
+
+/** Index**/
+
+.imagen_fondo_index {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/img/hero.jpg);
 }
 
 .presentacion_index h2 {
@@ -143,18 +146,10 @@ header nav {
 
 /**section1**/
 
-.imagen_principal_section1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 80vh;
+.imagen_fondo_section1 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section1.jpg);
-    background-image: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 
@@ -193,18 +188,10 @@ header nav {
 
 /**section2**/
 
-.imagen_principal_section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 80vh;
+.imagen_fondo_section2 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section2.jpg);
-    background-image: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 
@@ -266,18 +253,10 @@ button:hover {
 
 /**section3**/
 
-.imagen_principal_section3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 80vh;
+.imagen_fondo_section3 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section3.jpg);
-    background-image: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 .partners {
