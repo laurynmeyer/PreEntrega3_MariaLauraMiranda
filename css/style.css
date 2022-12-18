@@ -9,54 +9,6 @@ h1 h2 h3 h4 p {
 }
 
 
-/**
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-header {
-    display: flex;
-    background-color: rgb(226, 225, 225);
-}
-
-header div {
-    width: 50%;
-}
-
-header div img {
-    padding: 1%;
-    border-radius: 40%;
-    width: 10%;
-}
-
-header nav {
-    width: 50%;
-}
-
-.barra_navegacion {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.barra_navegacion li a {
-    color: rgb(12, 40, 41);
-    font-weight: bold;
-}
-
-.barra_navegacion li a:hover {
-    color: rgb(101, 33, 165);
-}
-
-/**/
-
 .imagen_principal {
     display: flex;
     flex-direction: column;
@@ -98,6 +50,7 @@ header nav {
     font-size: 20px;
 }
 
+
 .imagen_team {
     text-align: center;
 
@@ -110,12 +63,18 @@ header nav {
 
 #equipo {
     background-color: rgb(24, 23, 23);
-    font-size: 30px;
     color: rgb(219, 219, 219);
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 #equipo h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#equipo p {
+    font-size: 20px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -123,7 +82,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10%;
+    padding: 10px 10px 50px 40px;
 }
 
 .nombre_foto {
@@ -142,7 +101,7 @@ header nav {
 
 .nombre_foto__imagen img {
     width: 45%;
-    border-radius: 50%;
+    border-radius: 60px;
     padding-top: 20px;
     border-color: blanchedalmond;
 }
@@ -198,10 +157,16 @@ header nav {
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section2.jpg);
 }
 
+.listado_proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 60px;
+}
 
 .proyectos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     padding-top: 30px;
@@ -214,17 +179,14 @@ header nav {
     margin-left: 15px;
 }
 
-
 .proyectos__texto {
     width: 70%;
-    padding-right: 50px;
 }
 
 
 .proyectos__texto h3 {
-    padding-bottom: 15px;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 
@@ -263,34 +225,43 @@ button:hover {
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section3.jpg);
 }
 
-.partners {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-evenly;
-    justify-content: center;
-    width: 100%;
-    padding-top: 50px;
+.listado_partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
 }
 
-.partners__bio {
-    width: 28%;
-    padding-bottom: 15px;
+.partners_bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.partners_bio__img img {
+    width: 80%;
+    padding: 20px;
+    border-radius: 35px;
+    margin-left: 40px;
+}
+
+.partners_bio__texto {
+    width: 70%;
+}
+
+
+.partners_bio__texto h3 {
     text-align: center;
     font-size: 18px;
 }
 
-.partners__bio__img img {
-    width: 50%;
-    border-radius: 50px;
-    padding-top: 15px;
-}
-
-.bio_texto {
-    font-size: 20px;
-    padding: 40px;
+.partners_bio__texto h2{
     text-align: center;
-    line-height: 25px;
+    font-size: 25px;
+}
+.partners_bio__texto p {
+    text-align: center;
 }
 
 /**section4**/
@@ -385,23 +356,29 @@ button:hover {
 /**footer**/
 
 footer {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 30px;
     background-color: rgb(226, 225, 225);
 }
 
-footer div {
-    width: 100%;
+.imagen_logo img {
+    width: 90px;
+    padding: 15px;
 }
 
 footer div p {
     text-align: center;
     font-weight: bold;
+    margin-top: 30px;
 }
+
 
 .redes_sociales {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
     padding: 20px;

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -54,11 +55,12 @@
 
     <main>
         <section class="imagen_principal imagen_fondo_section2">
-            <h1 class="titulo_hero">Nuestros proyectos recientes</h1>
-            <h2 class="bajada_hero">Aqui podrás conocer los proyectos en los que hemos participado</h2>
+            <h1 class="titulo_hero animate__animated animate__zoomIn">Nuestros proyectos recientes</h1>
+            <h2 class="bajada_hero animate__animated animate__zoomIn">Aqui podrás conocer los proyectos en los que hemos
+                participado</h2>
         </section>
 
-        <section>
+        <section class="listado_proyectos">
             <div class="proyectos">
                 <div class="proyectos__imagen">
                     <img src="../assets/img/proyecto (1).jpg" alt="proyecto 1">
@@ -95,7 +97,7 @@
                     <img src="../assets/img/proyecto (3).jpg" alt="proyecto 3">
                 </div>
                 <div class="proyectos__texto">
-                    <h3>Proyectos Programación y Desarrollo</h3>
+                    <h3>Programación y Desarrollo</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere enim incidunt facilis
                         veritatis ut quod. Neque rem sint fuga nesciunt eum cumque laborum ratione saepe ab, repellendus
                         nihil. Quasi, ipsum?</p>
@@ -110,7 +112,7 @@
                     <img src="../assets/img/proyecto (4).jpg" alt="proyecto 4">
                 </div>
                 <div class="proyectos__texto">
-                    <h3>Proyectos Desarrollo de Video Juegos</h3>
+                    <h3>Desarrollo de Video Juegos</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere enim incidunt facilis
                         veritatis ut quod. Neque rem sint fuga nesciunt eum cumque laborum ratione saepe ab, repellendus
                         nihil Quasi, ipsum?</p>
@@ -125,7 +127,7 @@
                     <img src="../assets/img/proyecto (5).jpg" alt="proyecto 5">
                 </div>
                 <div class="proyectos__texto">
-                    <h3>Proyectos Data Sciencist y Analytics</h3>
+                    <h3>Data Sciencist y Analytics</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere enim incidunt facilis
                         veritati ut quod. Neque rem sint fuga nesciunt eum cumque laborum ratione saepe ab, repellendus
                         nihil Quasi, ipsum?</p>
@@ -155,7 +157,12 @@
     </main>
 
     <footer>
-
+        <div class="imagen_logo">
+            <img src="../assets/img/logo.png" alt="logo">
+        </div>
+        <div>
+            <P>&#169 Todos los derechos reservados</P>
+        </div>
         <div>
             <ul class="redes_sociales">
                 <li><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i
@@ -168,10 +175,9 @@
                             class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
-        <div>
-            <P>&#169 Todos los derechos reservados</P>
-        </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
