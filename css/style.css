@@ -56,14 +56,16 @@ h1 h2 h3 h4 p {
 
 
 #equipo {
-    background-color: #77a9bb;
-    color: rgb(15, 8, 8);
-    padding-top: 45px;
+    background-color: #b1c6ce;
+    color: rgb(114, 98, 98);
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 #equipo h2 {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 5%;
 }
 
 #equipo p {
@@ -75,8 +77,9 @@ h1 h2 h3 h4 p {
 .nuestro_equipo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 10px 50px 40px;
+    flex-wrap: wrap;
+    
+
 }
 
 .nombre_foto {
@@ -89,15 +92,16 @@ h1 h2 h3 h4 p {
 
 .nombre_foto h4 {
     font-size: 20px;
-    color: rgb(15, 8, 8);
+    color: rgb(88, 80, 80);
 }
 
 
 .nombre_foto__imagen img {
-    width: 80%;
+    width: 55%;
     border-radius: 60px;
     margin-top: 20px;
     border-style: double;
+    
 }
 
 
@@ -385,6 +389,7 @@ i:hover {
     .nuestro_equipo {
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
     .nombre_foto {
@@ -400,7 +405,7 @@ i:hover {
     }
 
     .nombre_foto__imagen img {
-        width: 70%;
+        width: 40%;
     }
 
     /**Section1**/
