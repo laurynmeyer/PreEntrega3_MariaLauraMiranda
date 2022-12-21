@@ -38,16 +38,10 @@ h1 h2 h3 h4 p {
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero.jpg);
 }
 
-.presentacion_index h2 {
-    padding: 30px;
-    text-align: center;
-    font-size: 40px;
-}
-
 .presentacion_index p {
     text-align: center;
     padding-top: 60px;
-    font-size: 20px;
+    font-size: 130%;
 }
 
 
@@ -62,8 +56,8 @@ h1 h2 h3 h4 p {
 
 
 #equipo {
-    background-color: rgb(24, 23, 23);
-    color: rgb(219, 219, 219);
+    background-color: #77a9bb;
+    color: rgb(15, 8, 8);
     padding-top: 45px;
 }
 
@@ -95,15 +89,15 @@ h1 h2 h3 h4 p {
 
 .nombre_foto h4 {
     font-size: 20px;
-    color: rgb(197, 195, 195)
+    color: rgb(15, 8, 8);
 }
 
 
 .nombre_foto__imagen img {
-    width: 45%;
+    width: 80%;
     border-radius: 60px;
-    padding-top: 20px;
-    border-color: blanchedalmond;
+    margin-top: 20px;
+    border-style: double;
 }
 
 
@@ -115,28 +109,23 @@ h1 h2 h3 h4 p {
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section1.jpg);
 }
 
-
 .nosotros {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
 }
-
 
 .nosotros__imagen {
     display: flex;
-    flex-direction: row-reverse;
-    width: 50%;
+    justify-content: right;
 }
-
 
 .nosotros__texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
-    padding: 20px;
+    width: 85%;
 }
 
 .nosotros__texto h3 {
@@ -202,11 +191,11 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: rgb(101, 33, 165);
+    background-color: #0d6efd;
 }
 
 button:hover {
-    background-color: rgb(226, 43, 144);
+    background-color: rgb(101, 33, 165);
 }
 
 .proyectos__texto .proyectos__boton {
@@ -225,43 +214,11 @@ button:hover {
             rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section3.jpg);
 }
 
-.listado_partners {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 30px;
-}
-
-.partners_bio {
+.card_presentacion {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-top: 30px;
-}
-
-.partners_bio__img img {
-    width: 80%;
-    padding: 20px;
-    border-radius: 35px;
-    margin-left: 40px;
-}
-
-.partners_bio__texto {
-    width: 70%;
-}
-
-
-.partners_bio__texto h3 {
-    text-align: center;
-    font-size: 18px;
-}
-
-.partners_bio__texto h2{
-    text-align: center;
-    font-size: 25px;
-}
-.partners_bio__texto p {
-    text-align: center;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 /**section4**/
@@ -283,12 +240,13 @@ button:hover {
 
 
 .formulario_contacto h1 {
-    font-size: 30px;
+    font-size: 160%;
     font-weight: bold;
     color: #fff;
     text-align: center;
     margin-bottom: 15px;
 }
+
 
 #formulario_campos {
     display: flex;
@@ -302,12 +260,14 @@ button:hover {
     margin-bottom: 20px;
 }
 
+
 #formulario_campos label {
     font-size: 20px;
     text-align: center;
     color: black;
     margin: 30px 0px 10px 0px;
 }
+
 
 #formulario_campos input {
     width: 80%;
@@ -345,12 +305,11 @@ button:hover {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: rgb(101, 33, 165);
-    padding: 5px;
+    background-color: #0d6efd;
 }
 
 #formulario_campos .send:hover {
-    background-color: rgb(226, 43, 144);
+    background-color: rgb(101, 33, 165);
 }
 
 /**footer**/
@@ -358,7 +317,6 @@ button:hover {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30px 30px 30px;
     background-color: rgb(226, 225, 225);
 }
 
@@ -393,4 +351,199 @@ i {
 
 i:hover {
     color: rgb(101, 33, 165);
+}
+
+/**@media**/
+
+/**estilos tablet**/
+
+@media screen and (max-width:1023px) {
+
+    /**fuentes imagen principal**/
+    .titulo_hero {
+        font-size: 180%;
+    }
+
+    .bajada_hero {
+        font-size: 170%;
+    }
+
+    /**Index**/
+
+    .presentacion_index p {
+        font-size: 110%;
+    }
+
+    #equipo h2 {
+        font-size: 170%;
+    }
+
+    #equipo p {
+        font-size: 110%;
+    }
+
+    .nuestro_equipo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombre_foto {
+        padding-bottom: 7%;
+    }
+
+    .nombre_foto h3 {
+        font-size: 160%;
+    }
+
+    .nombre_foto h4 {
+        font-size: 130%;
+    }
+
+    .nombre_foto__imagen img {
+        width: 70%;
+    }
+
+    /**Section1**/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros__texto h3 {
+        font-size: 140%;
+    }
+
+    .nosotros__texto p {
+        font-size: 120%;
+    }
+
+    /**Section2**/
+
+    .listado_proyectos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /**Section3**/
+
+    /**section4**/
+
+    #formulario_campos {
+        width: 90%;
+        height: 25%;
+    }
+
+    /**footer**/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgb(226, 225, 225);
+    }
+
+    .imagen_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/**estilos mobile**/
+
+@media screen and (max-width:479px) {
+
+    /**fuentes imagen principal**/
+
+    .titulo_hero {
+        font-size: 130%;
+    }
+
+    .bajada_hero {
+        font-size: 120%;
+    }
+
+    /**Index**/
+
+    .presentacion_index p {
+        font-size: 80%;
+    }
+
+    #equipo h2 {
+        font-size: 150%;
+    }
+
+    #equipo p {
+        font-size: 90%;
+    }
+
+    .nuestro_equipo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombre_foto {
+        padding-bottom: 7%;
+    }
+
+    .nombre_foto h3 {
+        font-size: 130%;
+    }
+
+    .nombre_foto h4 {
+        font-size: 110%;
+    }
+
+    .nombre_foto__imagen img {
+        width: 80%;
+    }
+
+    /**Section1**/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros__texto h3 {
+        font-size: 120%;
+    }
+
+    /**Section2**/
+
+    .listado_proyectos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    /**Section3**/
+
+    .card_presentacion {
+        margin-left: 15%;
+    }
+
+    /**section4**/
+
+    #formulario_campos {
+        width: 90%;
+        height: 25%;
+    }
+
+    /**footer**/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgb(226, 225, 225);
+    }
+
+    .imagen_logo {
+        display: flex;
+        justify-content: center;
+    }
+
 }
