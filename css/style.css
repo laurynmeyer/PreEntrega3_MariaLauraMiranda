@@ -54,7 +54,6 @@ h1 h2 h3 h4 p {
     text-align: center;
 }
 
-
 #equipo {
     background-color: #b1c6ce;
     color: rgb(114, 98, 98);
@@ -74,12 +73,17 @@ h1 h2 h3 h4 p {
     text-align: center;
 }
 
-.nuestro_equipo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
+.nuestro_equipo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
+.nombre_foto__imagen img{
+    width: 80% ;
+    border-style: double;
+    border-radius: 60px;
+    margin-top: 20px;
 }
 
 .nombre_foto {
@@ -94,16 +98,6 @@ h1 h2 h3 h4 p {
     font-size: 20px;
     color: rgb(88, 80, 80);
 }
-
-
-.nombre_foto__imagen img {
-    width: 55%;
-    border-radius: 60px;
-    margin-top: 20px;
-    border-style: double;
-    
-}
-
 
 /**section1**/
 
