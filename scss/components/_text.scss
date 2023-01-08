@@ -9,13 +9,13 @@ h1 h2 h3 h4 p {
     font-size: 130%;
 }
 
-#equipo h2 {
+.equipo h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 5%;
 }
 
-#equipo p {
+.equipo p {
     font-size: 20px;
     padding: 15px;
     text-align: center;
@@ -23,15 +23,15 @@ h1 h2 h3 h4 p {
 
 .nombre_foto {
     text-align: center;
-}
 
-.nombre_foto h3 {
-    font-size: 25px;
-}
+    & h3 {
+        font-size: 25px;
+    }
 
-.nombre_foto h4 {
-    font-size: 20px;
-    color: rgb(88, 80, 80);
+    & h4 {
+        font-size: 20px;
+        color: rgb(88, 80, 80);
+    }
 }
 
 /**section1**/
@@ -48,15 +48,13 @@ h1 h2 h3 h4 p {
 /**section2**/
 .proyectos__texto {
     width: 70%;
-}
 
+    & h3 {
+        text-align: center;
+        font-size: 18px;
+    }
 
-.proyectos__texto h3 {
-    text-align: center;
-    font-size: 18px;
-}
-
-
-.proyectos__texto p {
-    text-align: center;
+    & p {
+        text-align: center;
+    }
 }

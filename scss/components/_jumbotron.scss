@@ -10,35 +10,28 @@
 }
 
 .titulo_hero {
-    color: aliceblue;
-    font-size: 300%;
+    color: $titulo;
+    font-size: $size_titulo;
 }
 
 .bajada_hero {
-    color: #fff;
-    font-weight: lighter;
+    color: $bajada;
+    font-weight: $color_bajada;
 }
 
+
 .imagen_fondo_index {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/hero.jpg);
+    background-image: $tertiary, url(../assets/img/hero.jpg);
 }
 
 .imagen_fondo_section1 {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section1.jpg);
+    background-image: $tertiary, url(../assets/img/hero_section1.jpg);
 }
 
 .imagen_fondo_section2 {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section2.jpg);
+    background-image: $tertiary, url(../assets/img/hero_section2.jpg);
 }
 
 .imagen_fondo_section3 {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section3.jpg);
+    background-image: $tertiary, url(../assets/img/hero_section3.jpg);
 }

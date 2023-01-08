@@ -6,10 +6,9 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: #0d6efd;
+    background-color: $btn;
 }
 
-.btn_web:hover{
-    background-color: rgb(101, 33, 165);
+.btn_web:hover {
+    background-color: $hover;
 }
-

@@ -19,11 +19,11 @@
         font-size: 110%;
     }
 
-    #equipo h2 {
+    .equipo h2 {
         font-size: 170%;
     }
 
-    #equipo p {
+    .equipo p {
         font-size: 110%;
     }
 
@@ -35,18 +35,18 @@
 
     .nombre_foto {
         padding-bottom: 7%;
-    }
 
-    .nombre_foto h3 {
-        font-size: 160%;
-    }
+        & h3 {
+            font-size: 160%;
+        }
 
-    .nombre_foto h4 {
-        font-size: 130%;
-    }
+        & h4 {
+            font-size: 130%;
+        }
 
-    .nombre_foto__imagen img {
-        width: 40%;
+        & .imagen img {
+            width: 40%;
+        }
     }
 
     /**Section1**/
@@ -76,7 +76,7 @@
 
     /**section4**/
 
-    #formulario_campos {
+    .formulario_campos {
         width: 90%;
         height: 25%;
     }
@@ -87,7 +87,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        background-color: rgb(226, 225, 225);
     }
 
     .imagen_logo {
@@ -117,11 +116,11 @@
         font-size: 80%;
     }
 
-    #equipo h2 {
+    .equipo h2 {
         font-size: 150%;
     }
 
-    #equipo p {
+    .equipo p {
         font-size: 90%;
     }
 
@@ -132,18 +131,18 @@
 
     .nombre_foto {
         padding-bottom: 7%;
-    }
 
-    .nombre_foto h3 {
-        font-size: 130%;
-    }
+        & h3 {
+            font-size: 130%;
+        }
 
-    .nombre_foto h4 {
-        font-size: 110%;
-    }
+        & h4 {
+            font-size: 110%;
+        }
 
-    .nombre_foto__imagen img {
-        width: 80%;
+        & img {
+            width: 80%;
+        }
     }
 
     /**Section1**/
@@ -173,7 +172,7 @@
 
     /**section4**/
 
-    #formulario_campos {
+    .formulario_campos {
         width: 90%;
         height: 25%;
     }
@@ -184,7 +183,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        background-color: rgb(226, 225, 225);
     }
 
     .imagen_logo {

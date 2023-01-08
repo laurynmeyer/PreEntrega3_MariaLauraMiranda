@@ -1,12 +1,15 @@
+@import "./utilities/variables.scss";
 @import "./normalize/reset";
-@import "./components/jumbotron.scss";
-@import "./components/text";
-@import "./components/images.scss";
 @import "./components/background.scss";
-@import "./layout/grid.scss";
-@import "./layout/flex.scss";
 @import "./components/button.scss";
 @import "./components/cards.scss";
 @import "./components/form.scss";
+@import "./components/images.scss";
+@import "./components/jumbotron.scss";
+@import "./components/text";
+@import "./layout/flex.scss";
 @import "./layout/footer.scss";
+@import "./layout/grid.scss";
+@import "./layout/nav";
 @import "./views/queries";
+
