@@ -1,0 +1,38 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(226, 225, 225);
+}
+
+.imagen_logo img {
+    width: 90px;
+    padding: 15px;
+}
+
+footer div p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.redes_sociales {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+}
+
+i {
+    font-size: 35px;
+    color: rgb(39, 39, 39);
+
+
+}
+
+i:hover {
+    color: rgb(101, 33, 165);
+}

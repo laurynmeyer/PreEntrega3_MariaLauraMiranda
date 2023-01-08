@@ -1,0 +1,195 @@
+/**@media**/
+
+/**estilos tablet**/
+
+@media screen and (max-width:1023px) {
+
+    /**fuentes imagen principal**/
+    .titulo_hero {
+        font-size: 180%;
+    }
+
+    .bajada_hero {
+        font-size: 170%;
+    }
+
+    /**Index**/
+
+    .presentacion_index p {
+        font-size: 110%;
+    }
+
+    #equipo h2 {
+        font-size: 170%;
+    }
+
+    #equipo p {
+        font-size: 110%;
+    }
+
+    .nuestro_equipo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .nombre_foto {
+        padding-bottom: 7%;
+    }
+
+    .nombre_foto h3 {
+        font-size: 160%;
+    }
+
+    .nombre_foto h4 {
+        font-size: 130%;
+    }
+
+    .nombre_foto__imagen img {
+        width: 40%;
+    }
+
+    /**Section1**/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros__texto h3 {
+        font-size: 140%;
+    }
+
+    .nosotros__texto p {
+        font-size: 120%;
+    }
+
+    /**Section2**/
+
+    .listado_proyectos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /**Section3**/
+
+    /**section4**/
+
+    #formulario_campos {
+        width: 90%;
+        height: 25%;
+    }
+
+    /**footer**/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgb(226, 225, 225);
+    }
+
+    .imagen_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/**estilos mobile**/
+
+@media screen and (max-width:479px) {
+
+    /**fuentes imagen principal**/
+
+    .titulo_hero {
+        font-size: 130%;
+    }
+
+    .bajada_hero {
+        font-size: 120%;
+    }
+
+    /**Index**/
+
+    .presentacion_index p {
+        font-size: 80%;
+    }
+
+    #equipo h2 {
+        font-size: 150%;
+    }
+
+    #equipo p {
+        font-size: 90%;
+    }
+
+    .nuestro_equipo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombre_foto {
+        padding-bottom: 7%;
+    }
+
+    .nombre_foto h3 {
+        font-size: 130%;
+    }
+
+    .nombre_foto h4 {
+        font-size: 110%;
+    }
+
+    .nombre_foto__imagen img {
+        width: 80%;
+    }
+
+    /**Section1**/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros__texto h3 {
+        font-size: 120%;
+    }
+
+    /**Section2**/
+
+    .listado_proyectos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    /**Section3**/
+
+    .card_presentacion {
+        margin-left: 15%;
+    }
+
+    /**section4**/
+
+    #formulario_campos {
+        width: 90%;
+        height: 25%;
+    }
+
+    /**footer**/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: rgb(226, 225, 225);
+    }
+
+    .imagen_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+}

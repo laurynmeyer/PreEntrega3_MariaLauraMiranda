@@ -1,0 +1,62 @@
+h1 h2 h3 h4 p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/** texto index.html**/
+.presentacion_index p {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 130%;
+}
+
+#equipo h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+#equipo p {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.nombre_foto {
+    text-align: center;
+}
+
+.nombre_foto h3 {
+    font-size: 25px;
+}
+
+.nombre_foto h4 {
+    font-size: 20px;
+    color: rgb(88, 80, 80);
+}
+
+/**section1**/
+.nosotros__texto h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.nosotros__texto p {
+    text-align: center;
+}
+
+/**section2**/
+.proyectos__texto {
+    width: 70%;
+}
+
+
+.proyectos__texto h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.proyectos__texto p {
+    text-align: center;
+}

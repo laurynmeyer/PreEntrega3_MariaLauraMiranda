@@ -1,0 +1,44 @@
+.imagen_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.titulo_hero {
+    color: aliceblue;
+    font-size: 300%;
+}
+
+.bajada_hero {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.imagen_fondo_index {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/img/hero.jpg);
+}
+
+.imagen_fondo_section1 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section1.jpg);
+}
+
+.imagen_fondo_section2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section2.jpg);
+}
+
+.imagen_fondo_section3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../assets/img/hero_section3.jpg);
+}

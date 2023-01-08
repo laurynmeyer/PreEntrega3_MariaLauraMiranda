@@ -1,0 +1,24 @@
+/**section1**/
+.nosotros__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+}
+
+/**section2**/
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.proyectos__texto .proyectos__boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
