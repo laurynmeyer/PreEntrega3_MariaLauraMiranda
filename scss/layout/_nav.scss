@@ -1,6 +1,6 @@
 /**nav bootstrap**/
 .nav_web {
-    background-color: $primary;
+    background-color: map-get($pallette, primary);
 }
 
 .nav_text {

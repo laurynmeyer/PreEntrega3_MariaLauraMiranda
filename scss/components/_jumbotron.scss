@@ -21,17 +21,17 @@
 
 
 .imagen_fondo_index {
-    background-image: $tertiary, url(../assets/img/hero.jpg);
+    background-image: map-get($pallette, tertiary), url(../assets/img/hero.jpg);
 }
 
 .imagen_fondo_section1 {
-    background-image: $tertiary, url(../assets/img/hero_section1.jpg);
+    background-image: map-get($pallette, tertiary), url(../assets/img/heroSection1.jpg);
 }
 
 .imagen_fondo_section2 {
-    background-image: $tertiary, url(../assets/img/hero_section2.jpg);
+    background-image: map-get($pallette, tertiary), url(../assets/img/heroSection2.jpg);
 }
 
 .imagen_fondo_section3 {
-    background-image: $tertiary, url(../assets/img/hero_section3.jpg);
+    background-image: map-get($pallette, tertiary), url(../assets/img/heroSection3.jpg);
 }

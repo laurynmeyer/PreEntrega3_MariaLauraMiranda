@@ -1,7 +1,7 @@
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: $primary;
+    background-color: map-get($pallette, primary);
 
     & div p {
         text-align: center;
@@ -34,4 +34,3 @@ footer {
         color: $hover;
     }
 }
-

@@ -1,0 +1,40 @@
+@mixin anchoBorde ($ancho, $borde) {
+    width: $ancho;
+    border-radius: $borde;
+}
+
+.nombre_foto__imagen img {
+    @include anchoBorde (80%, 15px);
+}
+
+.proyectos__imagen img {
+    @include anchoBorde (90%, 35px);
+}
+
+@mixin anchoAlto ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.formulario_contacto {
+    @include anchoAlto (100%, 100%);
+
+    & input {
+        @include anchoAlto (80%, 30px);
+    }
+
+    & textarea {
+        @include anchoAlto (90%, 200px);
+    }
+}
+
+@mixin boton ($padding, $border, $radius, $shadow) {
+    padding: $padding;
+    border: $border;
+    border-radius: $radius;
+    box-shadow: $shadow;
+}
+
+.btn_web {
+    @include boton (5px 5px, 1px solid rgba(0, 0, 0, 0.3), 10px, 2px 2px 10px rgba(0, 0, 0, 0.5));
+}
