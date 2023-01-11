@@ -7,6 +7,7 @@
 /**fondo index**/
 .equipo {
   background-color: #3b3f3f;
+  background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   color: #726262;
   padding-top: 5%;
   padding-bottom: 10%;
@@ -121,7 +122,7 @@
 
 /**imagenes jpg en index**/
 .nombre_foto__imagen img {
-  border-style: hidden;
+  border-style: double;
   margin-top: 20px;
 }
 
@@ -203,6 +204,7 @@ h1 h2 h3 h4 p {
 .nombre_foto h3 {
   font-size: 25px;
   color: aliceblue;
+  padding-top: 10%;
 }
 
 .nombre_foto h4 {

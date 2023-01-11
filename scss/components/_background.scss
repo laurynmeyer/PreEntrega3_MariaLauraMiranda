@@ -1,6 +1,7 @@
 /**fondo index**/
 .equipo {
     background-color: map-get($pallette, secondary);
+    background-color: map-get($pallette, tertiary);
     color: rgb(114, 98, 98);
     padding-top: 5%;
     padding-bottom: 10%;
