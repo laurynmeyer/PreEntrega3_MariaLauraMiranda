@@ -54,7 +54,7 @@ Nota: Verificar que "autoSave" de Visual Studio Code" esté activado. Caso contr
 
 <h3>Uso de Frameworks</h3>
 
-- Boostrap (Utilizado en nav y cards)
+- Bootstrap (Utilizado en nav y cards)
 
 <h2>Autoría</h2>
 María Laura Miranda
