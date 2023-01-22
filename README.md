@@ -10,7 +10,7 @@ El diseño elegido puede ser utilizado como diseño estándar en muchos otras te
 
 El proyecto requerirá utilización de JavaScript para completar y mejorar el objetivo buscado para el front. Asimismo se requiere el uso de otras tecnologías para dar funcionalidad al formulario creado en la section4.
 
-<h2>Teconologías utilizadas y características principales</h2>
+<h2>Tecnologías utilizadas y características principales</h2>
 
 <h3>HTML</h3>
 
