@@ -13,15 +13,18 @@ El proyecto requerirá utilización de JavaScript para completar y mejorar el ob
 <h2>Teconologías utilizadas y características principales</h2>
 
 <h3>HTML</h3>
+
 - Tags html
 - Metodología BEM
 
 <h3>CSS</h3>
+
 - Grid
 - Flexbox
 - Uso de media Queries
 
 <h3>SASS</h3>
+
 - variables
 - mixins
 - maps
@@ -32,7 +35,8 @@ El proyecto requerirá utilización de JavaScript para completar y mejorar el ob
 Para la implementación de Sass en un proyecto, se requiere la instalación previa de node.js
 
 <h5>Pasos de instalación</h5>
-- En primera instancia se debe generar una copia de resguardo del css existente si la implementación de sass es posterior a la creación del proyecto
+
+- En primera instancia se debe generar una copia de resguardo del css existente si la implementación de sass es posterior a la creación del proyecto.
 
 - Una vez instalado node.js se debe verificar la versión para constatar que se encuentra correctamente instalado. 
 
@@ -49,6 +53,7 @@ Para la implementación de Sass en un proyecto, se requiere la instalación prev
 Nota: Verificar que "autoSave" de Visual Studio Code" esté activado. Caso contrario, hasta no guardar cambios, estos no impactarán.
 
 <h3>Uso de Frameworks</h3>
+
 - Boostrap (Utilizado en nav y cards)
 
 <h2>Autoría</h2>
