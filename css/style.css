@@ -46,19 +46,26 @@
 }
 
 .formulario_contacto h1 {
-  font-size: 160%;
+  font-size: 180%;
   font-weight: bold;
   color: #fff;
   text-align: center;
   margin-bottom: 15px;
 }
 
+.formulario_contacto p {
+  color: #f0eeee;
+  text-align: center;
+  margin: 0% 5% 5% 5%;
+  font-size: 130%;
+}
+
 .formulario_campos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
-  background-color: antiquewhite;
+  width: 50%;
+  background-color: #e9e9e9;
   padding: 40px;
   border-radius: 50px;
   border: solid 2px #64026d;
@@ -129,7 +136,7 @@
 /**imagen en section1**/
 .nosotros__imagen {
   display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 /**imagen en section2**/
@@ -182,8 +189,8 @@ h1 h2 h3 h4 p {
 /** texto index.html**/
 .presentacion_index p {
   text-align: center;
-  padding-top: 60px;
   font-size: 130%;
+  margin: 5% 10% 0% 10%;
 }
 
 .equipo h2 {
@@ -411,8 +418,12 @@ footer div p {
 
   /**Section3**/
   /**section4**/
+  .formulario_contacto p {
+    font-size: 100%;
+  }
+
   .formulario_campos {
-    width: 90%;
+    width: 80%;
     height: 25%;
   }
 
@@ -425,6 +436,26 @@ footer div p {
 
   .imagen_logo {
     display: flex;
+    justify-content: center;
+  }
+}
+
+/**Breakpoint 799**/
+@media screen and (max-width: 799px) {
+
+  /**Section2**/
+  .listado_proyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .proyectos__imagen img {
+    margin-left: 5%;
+  }
+
+  /**Section3**/
+  .card_presentacion {
     justify-content: center;
   }
 }
@@ -494,12 +525,16 @@ footer div p {
 
   /**Section3**/
   .card_presentacion {
-    margin-left: 15%;
+    justify-content: center;
   }
 
   /**section4**/
+  .formulario_contacto p {
+    font-size: 80%;
+  }
+
   .formulario_campos {
-    width: 90%;
+    width: 100%;
     height: 25%;
   }
 
